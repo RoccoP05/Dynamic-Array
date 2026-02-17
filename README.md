@@ -26,10 +26,7 @@ The library manages an internal heap-allocated array. When the `_size` exceeds `
 ## Project Structure
 
 * `IntVector.h`: Class definition, including private helper functions for memory expansion.
-* 
-`IntVector.cpp`: Implementation of logic, including memory allocation and bounds checking. 
-
-
+* `IntVector.cpp`: Implementation of logic, including memory allocation and bounds checking. 
 * `main.cpp`: (Recommended) Unit tests verifying edge cases like empty vectors and maximum capacity.
 
 ## How to Use
