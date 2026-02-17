@@ -7,8 +7,7 @@ A robust, memory-managed dynamic array implementation in C++ designed to replica
 * **Dynamic Resizing:** Implements an  amortized `push_back` strategy by doubling capacity upon overflow.
 * **Memory Safety:** Utilizes a custom destructor to prevent memory leaks and handles dynamic allocation via `new[]` and `delete[]`.
 * **Bounds Checking:** Includes comprehensive error handling using `std::out_of_range` exceptions for the `at()`, `insert()`, and `erase()` methods.
-* 
-**Dual Interface:** Provides both `const` and non-`const` accessors to support read-only and mutable data operations. 
+* **Dual Interface:** Provides both `const` and non-`const` accessors to support read-only and mutable data operations. 
 
 ## Technical Implementation
 
